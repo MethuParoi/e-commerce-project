@@ -132,19 +132,19 @@ function Footer() {
           <div className=" inline-block mt-4 lg:mt-0">
             <h3 className="text-xl font-semibold text-primary">In a breif</h3>
             <p className="max-w-[25rem] pt-2">
-              Saafif.com is dedicated to enriching lives with the purity of
-              nature. Our mission is to deliver premium organic products that
-              promote health, well-being, and environmental sustainability. We
-              are committed to fostering a connection between consumers and the
-              natural world, providing transparency, and ensuring the integrity
-              of our supply chain. By choosing Saafif.com, you choose a life in
-              harmony with nature.
+              Welcome to NIXZO, where fashion meets individuality. Our
+              collection is curated with love, offering unique styles that
+              empower you to express your true self. From timeless classics to
+              bold trends, we believe in making every outfit a statement.
+              Quality, comfort, and sustainability are at the heart of what we
+              do. Step into a world where your style story unfolds beautifully,
+              one piece at a time.
             </p>
           </div>
         </div>
         <div className="text-center border-t-primaryHover border-t">
           <p className="text-gray-900 font-normal lg:font-medium p-2">
-            Copyright © saafif.com@2024, All Right Reserved
+            Copyright © nixzo.com@2024, All Right Reserved
           </p>
         </div>
       </div>

@@ -6,9 +6,9 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-import banner13 from "../assets/banner13.jpeg";
-import banner14 from "../assets/banner14.jpeg";
-import banner11 from "../assets/banner11.jpeg";
+import banner04 from "../assets/banner04.jpeg";
+import banner05 from "../assets/banner05.jpeg";
+import banner06 from "../assets/banner06.jpeg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -65,10 +65,10 @@ export default function HeroSection() {
       >
         <SwiperSlide>
           <div className="flex justify-center items-center h-full w-full">
-            <HeroBanner source={banner13} />
+            <HeroBanner source={banner04} />
             <div className="absolute flex flex-col justify-center items-center lg:inline lg:pl-[50rem] ">
               <h1 className="text-primary text-2xl lg:text-5xl font-semibold select-none pointer-events-none bg-gradient-to-r from-gray-700 to-transparent rounded-lg px-1 py-1">
-                Fresh food at your door
+                Trendy wearables at your door
               </h1>
               <div className="lg:pl-[20rem]">
                 <Button
@@ -126,8 +126,8 @@ export default function HeroSection() {
         </SwiperSlide> */}
         <SwiperSlide>
           <div className="flex justify-center items-center h-full w-full">
-            <HeroBanner source={banner11} />
-            <div className="absolute flex flex-col justify-center items-center  lg:inline lg:pr-[50rem]">
+            <HeroBanner source={banner05} />
+            {/* <div className="absolute flex flex-col justify-center items-center  lg:inline lg:pr-[50rem]">
               <h1 className="text-primary text-2xl lg:text-5xl font-semibold select-none pointer-events-none bg-gradient-to-r from-gray-700 to-transparent backdrop-blur-sm rounded-lg px-1 py-1">
                 Order organic honey
               </h1>
@@ -141,13 +141,13 @@ export default function HeroSection() {
                   }}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex justify-center items-center h-full w-full">
-            <HeroBanner source={banner14} />
-            <div className="absolute flex flex-col justify-center items-center lg:inline lg:pr-[60rem]">
+            <HeroBanner source={banner06} />
+            {/* <div className="absolute flex flex-col justify-center items-center lg:inline lg:pr-[60rem]">
               <h1 className="text-primary text-2xl lg:text-5xl font-semibold select-none pointer-events-none bg-gradient-to-r from-gray-700 to-gray-400 backdrop-blur-lg rounded-lg px-1 py-1">
                 Order dry fruits
               </h1>
@@ -159,7 +159,7 @@ export default function HeroSection() {
                   navigate("/product");
                 }}
               />
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
       </Swiper>

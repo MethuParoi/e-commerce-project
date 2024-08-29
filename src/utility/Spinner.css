@@ -34,9 +34,9 @@
   width: 6.4rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: radial-gradient(farthest-side, #93e506cc 94%, #0000)
+  background: radial-gradient(farthest-side, #7C93C3 94%, #0000)
       top/10px 10px no-repeat,
-    conic-gradient(#0000 30%, #93e506cc);
+    conic-gradient(#0000 30%, #7C93C3);
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 10px), #000 0);
   animation: rotate 1.5s infinite linear;
   z-index: 11;
